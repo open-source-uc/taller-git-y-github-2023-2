@@ -18,9 +18,9 @@ GitHub es una plataforma para trabajar y compartir código.
 Puedes crearte una cuenta en [github.com](https://github.com/signup).
 
 > 💡 ProTip: Luego de crear tu cuenta, puedes solicitar beneficios
-> para estudiantes de [GitHub Student Developer Pack][GSDP].
+> para estudiantes del [GitHub Student Developer Pack][GSDP].
 
-[GSDP]: https://education.github.com/discount_requests/application
+[GSDP]: https://education.github.com/benefits?utm_source=2023-08-24-Git&GitHubWorkshopUC
 
 ## Utilizar Git
 
@@ -60,9 +60,9 @@ Para poder probarlo durante el taller, tienes 2 opciones:
 
 Uno puede vincularse a GitHub de 3 maneras: HTTPS, SSH y GitHub cli.
 
-#### HTTP
+#### HTTPS
 
-HTTP utiliza un sistema de tokens para autenticar a los usuarios.
+HTTPS utiliza un sistema de tokens para autenticar a los usuarios.
 Para clonar este repositorio por HTTPS, se usa:
 
 ```bash
@@ -102,9 +102,9 @@ BenjaVicente [sobre SSH][ssh-benja].
 [ssh-github]: https://docs.github.com/es/authentication/connecting-to-github-with-ssh
 [ssh-benja]: https://gist.github.com/benjavicente/7614dd15ee6046355909d5e21a23dde6
 
-#### GitHub cli
+#### GitHub CLI
 
-GitHub cli es una herramienta propia de GitHub que te permite
+GitHub CLI es una herramienta propia de GitHub que te permite
 interactuar con GitHub desde la terminal. Puedes instalarla en su
 [página principal][gh-cli] y configurarlo siguiendo las instrucciones
 de [su manual][gh-cli-manual], que se resumen en correr:
@@ -123,8 +123,19 @@ gh repo clone open-source-uc/taller-git-y-github-2023-2
 [gh-cli-manual]: https://cli.github.com/manual/
 
 ### Utilizar GitHub Codespaces
+GitHub Codespaces es un entorno de desarrollo instantáneo que corre en la nube para que puedas hacer, básicamente, todo lo que haces en tu IDE, pero en tu buscador ✨ Esto signfica que puedes llevar tu experiencia de VSCode a tu buscador, para así programar en máquinas en la nube más potentes y contenidas.
 
-<!-- TODO -->
+Para empezar a utilizar GitHub Codespaces -tal como lo indica esta [guía oficial]- puedes hacerlo al crear un nuevo repositorio y se te dará la opción. Igualmente, si quieres utilizar un Codespace en un repositorio ya existente, puedes hacerlo haciendo click en el botón "Code" para clonar un repositorio, ahí podrás ver la opción para utilizar tu Codespace.
+
+![image](https://github.com/open-source-uc/taller-git-y-github-2023-2/assets/81819758/b3d1d80d-989d-42ff-a885-07e15c92e249)
+
+Si deseas aprender más en profunidad en cómo utilizar GitHub Codespaces, puedes hacerlo [acá].
+
+> Pro Tip: ¡Prueba jugar creando un Codespace! 🎏
+
+[guía oficial]: https://docs.github.com/es/codespaces/getting-started/quickstart#introduction
+[acá]: https://docs.github.com/es/codespaces/getting-started/deep-dive
+
 
 ## Como comprobar que todo funciona
 
