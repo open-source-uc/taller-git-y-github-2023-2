@@ -77,9 +77,9 @@ un repositorio privado, deberás usar credenciales para autenticarte.
 > que ingreses un token.
 
 Puedes crear e ingresar un token cada vez que lo necesites, pero es más
-conveniente instalar [Git Credential Manager][gcm] para
-que maneje la autentificación por ti. Viene instalado por defecto en
-Windows, en macOS y Linux siguiendo [estas instrucciones][gcm-install].
+conveniente instalar [Git Credential Manager][gcm] para que maneje la 
+autentificación por ti. Viene instalado por defecto en Windows, en macOS
+y Linux puedes instalarlo siguiendo [estas instrucciones][gcm-install].
 
 [gcm]: https://github.com/git-ecosystem/git-credential-manager
 [gcm-install]: https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md

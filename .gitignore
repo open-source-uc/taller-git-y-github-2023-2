@@ -1,0 +1,6 @@
+# Este archivo sirve para indicarle que a Git
+# que archivos debe ignorar al momento de hacer
+# `git add .` o `git status`.
+
+# En este repositorio, solo se ignora
+/playground
