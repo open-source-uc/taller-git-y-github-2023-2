@@ -139,4 +139,10 @@ Si deseas aprender más en profunidad en cómo utilizar GitHub Codespaces, puede
 
 ## Como comprobar que todo funciona
 
-<!-- TODO -->
+1. Crea un repositorio en GitHub.
+2. Clona el repositorio (`git clone <url>`).
+3. Abre el repositorio localmente o en GitHub Codespaces.
+4. Edita un archivo.
+5. Añade los cambios (`git add . && git commit -m "setup"`)
+6. Sube los cambios (`git push`)
+7. Ve que los cambios aparecen en GitHub.
